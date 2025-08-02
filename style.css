@@ -1,0 +1,90 @@
+body {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .small-text, .image-text, .call-to-action-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up-container {
+    display: flex;
+    padding: 80px;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.headline-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image-placeholder {
+    background-color: #E5E7EB;
+}
+
+.small-text {
+    padding-bottom: 10px;
+}
+
+.button-1 {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.random-info, .call-to-action {
+    background-color: #f9faf8;
+}
+
+.quote-block {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.call-to-action-block {
+    background-color: #3882F6;
+    display: flex;
+    margin: 100px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.call-to-action-headline {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.call-to-action-subtext {
+    font-weight: 400;
+}
