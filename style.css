@@ -15,6 +15,7 @@ body {
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .header-links {
@@ -153,6 +154,7 @@ a, .small-text, .call-to-action-subtext {
     padding: 40px 100px;
     justify-content: space-between;
     border-radius: 10px;
+    gap: 20px;
 }
 
 .call-to-action-headline {
